@@ -1,0 +1,13 @@
+com\example\dashboard\engine\ElasticsearchEngine.class
+com\example\dashboard\engine\QueryEngine.class
+com\example\dashboard\resource\DataResource.class
+com\example\dashboard\config\HybridDataSource.class
+com\example\dashboard\config\HybridDataSource$PhaseConfig.class
+com\example\dashboard\engine\Neo4jEngine.class
+com\example\dashboard\di\EngineProducer.class
+com\example\dashboard\engine\MySqlEngine.class
+com\example\dashboard\model\Product.class
+com\example\dashboard\model\QueryRequest.class
+com\example\dashboard\di\EngineType$Literal.class
+com\example\dashboard\di\EngineType.class
+com\example\dashboard\service\HybridDataService.class

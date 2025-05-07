@@ -1,0 +1,26 @@
+datasources:
+  - id: sales
+    phases:
+      - phase: 1
+        engine: mysql
+        config:
+          jdbc-url: "jdbc:mysql://localhost:3306/sales"
+          username: "root"
+          password: "priax@2019##$$"
+        query: |
+          SELECT DISTINCT region 
+          FROM sales_data
+          WHERE sale_date BETWEEN :startDate AND :endDate
+          
+      - phase: 2
+        engine: mysql
+        config:
+          jdbc-url: "jdbc:mysql://localhost:3306/sales"
+          username: "root"
+          password: "priax@2019##$$"
+        query: |
+          SELECT product, SUM(amount) AS total 
+          FROM sales_data 
+          WHERE region = :region
+            AND sale_date BETWEEN :startDate AND :endDate
+          GROUP BY product

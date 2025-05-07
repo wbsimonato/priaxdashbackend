@@ -1,0 +1,11 @@
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\config\HybridDataSource.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\di\EngineProducer.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\di\EngineType.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\engine\ElasticsearchEngine.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\engine\MySqlEngine.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\engine\Neo4jEngine.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\engine\QueryEngine.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\model\Product.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\model\QueryRequest.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\resource\DataResource.java
+D:\Data\Priax\Tech\prototypes\dashboard-project\backend\src\main\java\com\example\dashboard\service\HybridDataService.java

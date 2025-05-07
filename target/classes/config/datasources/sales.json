@@ -1,0 +1,11 @@
+{
+  "id": "sales",
+  "type": "mysql",
+  "params": {
+    "host": "jdbc:mysql://localhost:3306/priax",
+    "user": "root",
+    "password": "priax@2019##$$"
+  },
+  "phase1": "SELECT distinct oid FROM priax.family;",
+  "phase2": "SELECT family,count(oid) as types FROM priax.beingtypecategory where family in (:oid);"
+}
